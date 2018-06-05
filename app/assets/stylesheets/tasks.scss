@@ -1,0 +1,69 @@
+// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.index-header {
+  text-align: center;
+}
+
+.index-body > h4 {
+  text-align: center;
+  margin: 20px;
+  font-size: 26px;
+}
+
+#add {
+  text-align: center;
+  margin: 20px;
+}
+
+.fas {
+  font-size: 30px;
+  padding: 5px 12px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px lightgrey;
+  margin: 10px;
+}
+
+.fas:hover {
+  box-shadow: 5px 5px 5px lightgrey;
+}
+
+.fa-trash-alt {
+  font-size: 36px;
+  padding: 10px;
+  color: grey;
+}
+
+.fa-trash-alt:hover {
+  opacity: 0.4;
+}
+
+.fa-circle {
+  font-size: 20px;
+  padding: 10px;
+  color: lightgrey
+}
+
+.fa-check-circle {
+  font-size: 20px;
+  padding: 10px;
+  color: salmon;
+}
+
+
+.cells {
+  text-align: center;
+}
+
+
+#cell {
+  border: 1px solid lightgrey;
+}
+
+
+.show-details {
+  text-align: center;
+}
+

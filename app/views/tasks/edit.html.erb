@@ -1,0 +1,11 @@
+<h1>Edit Task</h1>
+
+<h3>Currently this task is...</h3>
+<p><%= @task[:title] %></p>
+<p><%= @task[:details] %></p>
+
+<h3>Update task here</h3>
+
+<%= render 'form', task: @task %>
+
+<%= link_to 'All Tasks', tasks_path %>

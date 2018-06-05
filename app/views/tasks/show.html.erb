@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="show-details"><h1>Task Details</h1>
+
+    <h3><%= @task[:title] %></h3>
+
+    <h3><%= @task[:details] %></h3>
+
+    <div class="bottom-links">
+      <%= link_to '<i class="fas fa-home"></i>'.html_safe, tasks_path %>
+
+      <%= link_to '<i class="fas fa-edit"></i>'.html_safe, edit_path %>
+
+    </div>
+
+  </div>
+</div>
